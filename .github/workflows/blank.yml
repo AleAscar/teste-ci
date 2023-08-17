@@ -37,4 +37,4 @@ jobs:
       - name: Run read archivie
         run: |
           lendo arquivo
-          cat ${{GITHUB_WORKSPACE}}/arquivos/parameters.yaml
+          ls ${{github.workspace}}
