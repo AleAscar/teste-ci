@@ -37,4 +37,4 @@ jobs:
       - name: Run read archivie
         run: |
           lendo arquivo
-          cat ${{env.ARQ}}
+          cat ${{github.workspace}}/arquivos/parameters.yaml
