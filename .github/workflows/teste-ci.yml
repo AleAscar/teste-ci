@@ -1,7 +1,8 @@
 name: Environment Variables
 on:
     push:
-        branches: ['Feature/*']
+        branches:
+            "feature/*"
 
 env:
   WF_LEVEL_ENV: Available to all jobs
